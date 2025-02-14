@@ -1,0 +1,8 @@
+---
+- name: Play
+  hosts: localhost
+  connection: local
+  
+- include: app.yml
+- include: git.yml
+- include: config.yml

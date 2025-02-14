@@ -1,0 +1,10 @@
+---
+- name: Setup tmux repo envirement
+  hosts: localhost
+  connection: local
+  gather_facts: False
+  tasks:
+  - name: Clone Config repo into files folder
+    git: 
+      repo: "https://github.com/galkamichal/Config.git"
+      dest: "/home/m/files"
