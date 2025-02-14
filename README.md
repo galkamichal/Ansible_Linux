@@ -8,7 +8,6 @@
 
  TODO: 
  - setup new user with sudo 
- - setup zsh
  - setup ssh connection 
  - hardening ssh connection 
  - add ssh keys 
@@ -16,3 +15,4 @@
 
  Done:
  - setup tmux
+ - setup zsh

@@ -1,5 +1,5 @@
 ---
-- name: Setup tmux repo envirement
+- name: Setup git repo dotfile
   hosts: localhost
   connection: local
   gather_facts: False

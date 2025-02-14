@@ -1,0 +1,13 @@
+- name: Bugbounty setup
+  hosts: localhost
+  connection: local
+  become: yes
+  become_method: sudo
+
+  tasks:
+    - name: Update and upgrade apt
+      apt:
+        upgrade: yes
+        update_cache: yes
+        cache_valid_time: 86400 
+

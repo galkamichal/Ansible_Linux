@@ -3,6 +3,7 @@
   hosts: localhost
   connection: local
   
+- include: dotfile.yml
 - include: app.yml
-- include: git.yml
+- include: user.yml
 - include: config.yml

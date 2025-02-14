@@ -10,3 +10,39 @@
         name: tmux
         state: present
       tags: tmux
+
+    - name: Install ZSH
+      package:
+        name: zsh
+        state: present
+      tags: zsh
+
+    - name: Install git
+      package:
+        name: git
+        state: present
+      tags: git
+
+    - name: Install curl
+      package:
+        name: curl
+        state: present
+      tags: curl
+
+    - name: Install wget
+      package:
+        name: wget
+        state: present
+      tags: wget
+
+    - name: Install htop
+      package:
+        name: htop
+        state: present
+      tags: htop
+
+    - name: Install autojump
+      package:
+        name: autojump
+        state: present
+      tags: autojump
