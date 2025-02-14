@@ -4,10 +4,10 @@
   connection: local
   gather_facts: False
   tasks:
-  - name: Create symbolic link /home/m/files/.tmux.conf -> /home/m
+  - name: Create symbolic link $HOME/files/.tmux.conf -> $HOME
     file:
-      src: /home/m/files/.tmux.conf
-      dest: /home/m/.tmux.conf
+      src: $HOME/files/.tmux.conf
+      dest: $HOME/.tmux.conf
       state: link
       force: yes
       owner: m

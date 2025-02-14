@@ -7,4 +7,4 @@
   - name: Clone Config repo into files folder
     git: 
       repo: "https://github.com/galkamichal/Config.git"
-      dest: "/home/m/files"
+      dest: "$HOME/files"
